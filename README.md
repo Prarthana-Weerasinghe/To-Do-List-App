@@ -24,13 +24,13 @@ Database: MySQL
 
 🖼️ App Preview
 Light Mode
-
+https://github.com/Prarthana-Weerasinghe/To-Do-List-App/blob/main/Screenshots/Light-mode.png
 
 Dark Mode
-
+https://github.com/Prarthana-Weerasinghe/To-Do-List-App/blob/main/Screenshots/Dark-mode.png
 
 Edit Task
-
+https://github.com/Prarthana-Weerasinghe/To-Do-List-App/blob/main/Screenshots/Edit-task.png
 
 Task deadlines
 
