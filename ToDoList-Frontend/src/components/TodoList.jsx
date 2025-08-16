@@ -1,4 +1,6 @@
 import "./TodoList.css";
+import { FaEdit, FaTrashAlt, FaSave, FaTimes } from 'react-icons/fa';
+import { MdEdit, MdDelete, MdSave, MdClose } from 'react-icons/md';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -14,7 +16,7 @@ function TodoList() {
     fetchTodos();
   }, []);
 
-  // Apply dark mode class to body
+  // Apply dark mode class
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add('dark-mode');
@@ -136,9 +138,12 @@ function TodoList() {
                   value={editedTitle}
                   onChange={(e) => setEditedTitle(e.target.value)}
                 />
+
                 <div className="todo-buttons">
-                  <button onClick={() => handleSave(todo.id)}>Save</button>
-                  <button onClick={handleCancel}>Cancel</button>
+                  {/* <button onClick={() => handleSave(todo.id)}>Save</button> */}
+                  <button onClick={() => handleSave(todo.id)} className="icon-button"><MdSave /></button>
+                  {/* <button onClick={handleCancel}>Cancel</button> */}
+                  <button onClick={handleCancel} className="icon-button"><FaTimes/></button>
                 </div>
               </>
             ) : (
@@ -153,15 +158,21 @@ function TodoList() {
                     {todo.taskName}
                   </span>
                 </div>
+
                 <div className="todo-buttons">
-                  <button onClick={() => handleEdit(todo)}>Edit</button>
-                  <button onClick={() => deleteTodo(todo.id)}>Delete</button>
+                  <button onClick={() => handleEdit(todo)} className="icon-button">
+                    <MdEdit />
+                  </button>
+                  <button onClick={() => deleteTodo(todo.id)} className="icon-button">
+                    <FaTrashAlt />
+                  </button>
                 </div>
               </>
             )}
           </li>
         ))}
       </ul>
+
 
     </div>
   );
