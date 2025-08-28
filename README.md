@@ -1,40 +1,71 @@
-Todo List App
+# 📝 Full-Stack ToDo List App  
 
-📌 A full-stack Todo List application built with React + Spring Boot
+A modern **ToDo List application** built with **React (frontend)** and **Spring Boot (backend)**. The app supports **full CRUD operations**, task management, and a sleek **dark/light mode UI**.  
 
+---
 
-✨ Features
+## ✨ Features  
+- ➕ Add, ✏️ Edit, 🗑️ Delete tasks  
+- ✅ Mark tasks as complete (with strikethrough effect)  
+- 🌗 Dark/Light mode toggle for eye-friendly UI  
+- 🎨 Clean, modern design with intuitive icons  
+- 🔗 REST API integration with Spring Boot backend  
+- 📱 Responsive design (desktop & mobile)  
 
-✔ Add, Edit, Delete tasks
+---
 
-✔ Mark tasks as complete (with strikethrough)
+## 🛠 Tech Stack  
+**Frontend:** React.js (with React Icons, Axios)  
+**Backend:** Spring Boot (Java)  
+**Database:** MySQL  
+**Tools:** Git, Postman  
 
-✔ Dark/Light mode toggle (eye-friendly UI)
+---
 
-✔ Clean modern design with intuitive icons
+## 📸 App Preview  
 
-✔ Full CRUD operations via REST API
+<p align="center">
+  <img src="./Screenshots/Light-mode.png" alt="Light Mode" width="30%" />
+  <img src="./Screenshots/Dark-mode.png" alt="Dark Mode" width="30%" />
+  <img src="./Screenshots/Edit-task.png" alt="Edit Task" width="30%" />
+</p>
 
-🛠️ Tech Stack
-Frontend: React.js (with React Icons)
+---
 
-Backend: Spring Boot (Java)
+## 🚀 Getting Started  
 
-Database: MySQL 
+### 1️⃣ Backend Setup (Spring Boot)  
+```bash
+cd backend
+mvn spring-boot:run
+````
 
-🖼️ App Preview
-Light Mode
-https://github.com/Prarthana-Weerasinghe/To-Do-List-App/blob/main/Screenshots/Light-mode.png
+### 2️⃣ Frontend Setup (React)
 
-Dark Mode
-https://github.com/Prarthana-Weerasinghe/To-Do-List-App/blob/main/Screenshots/Dark-mode.png
+```bash
+cd frontend
+npm install
+npm start
+```
 
-Edit Task
-https://github.com/Prarthana-Weerasinghe/To-Do-List-App/blob/main/Screenshots/Edit-task.png
+The app will be available at:
+👉 `http://localhost:3000` (Frontend)
+👉 `http://localhost:8080` (Backend)
 
-Task deadlines
+---
 
-Mobile app (React Native)
+## 🔮 Future Improvements
 
-Voice command support
+* ⏰ Task deadlines with reminders
+* 📲 Mobile app (React Native)
+* 🎙️ Voice command support
+* ☁️ Deployment with Docker + Cloud Hosting
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo and submit a PR.
+
+---
 
