@@ -32,28 +32,6 @@ A modern **ToDo List application** built with **React (frontend)** and **Spring 
 
 ---
 
-## 🚀 Getting Started  
-
-### 1️⃣ Backend Setup (Spring Boot)  
-```bash
-cd backend
-mvn spring-boot:run
-````
-
-### 2️⃣ Frontend Setup (React)
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-The app will be available at:
-👉 `http://localhost:3000` (Frontend)
-👉 `http://localhost:8080` (Backend)
-
----
-
 ## 🔮 Future Improvements
 
 * ⏰ Task deadlines with reminders
